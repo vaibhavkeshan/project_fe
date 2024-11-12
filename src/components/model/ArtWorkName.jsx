@@ -46,7 +46,7 @@ const ArtWorkName = ({
       const data = await handleProjectSave(formData);
       if (data?.success) {
         // redirect to server page
-        window.location.href = "https://ar-backend-j397.onrender.com/build";
+        window.location.href = "https://project-be-z867.onrender.com/build";
         // window.location.href = "http://localhost:4000/build";
 // testing
         // window.open("http://localhost:4000/build", "_blank");

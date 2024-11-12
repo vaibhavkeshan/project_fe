@@ -48,7 +48,7 @@ const Build = ({
     if (data.success) {
       setIsServer(true);
       // window.location.href = "http://localhost:4000/build";
-      window.location.href = "https://ar-backend-j397.onrender.com/build";
+      window.location.href = "https://project-be-z867.onrender.com/build";
 
       // return navigate("/userdashboard");
     } else {
@@ -79,7 +79,7 @@ const Build = ({
 
               {/* <iframe
                 title="Embedded Website"
-                src="https://ar-backend-j397.onrender.com/build"
+                src="https://project-be-z867.onrender.com/build"
                 // src="http://localhost:4000/build"
                 style={{ width: "100%", height: "200px" }}
                 frameborder="0"
