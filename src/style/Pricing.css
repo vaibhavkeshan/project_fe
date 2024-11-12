@@ -1,0 +1,66 @@
+.containercard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containercarditems {
+    margin: 0 20px;
+}
+
+.pricing {
+    background-color: #F4F4F4;
+    height: 100%;
+    width: 100%;
+}
+
+.basicardcontent {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.mothhcardcnt {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.cardpricing {
+    border-radius: 10px !important;
+    max-width: 275px;
+}
+
+.linecard {
+    border: 1px solid #F0F0F1;
+}
+
+.paracarde {
+    font-size: 0.8rem;
+}
+
+.divcontent {
+    font-size: 0.8rem;
+}
+
+.rupeecardcnt {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:857px) {
+    .containercard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cardpricing {
+        border-radius: 10px !important;
+        max-width: 80%;
+        margin: auto;
+    }
+
+
+}

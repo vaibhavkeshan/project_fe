@@ -1,0 +1,14 @@
+@media screen and(max-width:991px) {
+    .tableSetBuilder {
+        background-color: black !important;
+        overflow: scroll !important;
+        height: auto !important;
+        width: 500px !important;
+        margin: auto !important;
+    }
+
+    #builderTable {
+        height: 100% !important;
+        width: 100% !important;
+    }
+}

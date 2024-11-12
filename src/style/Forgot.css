@@ -1,0 +1,22 @@
+.outerfor{
+    height:100vh;
+    width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F4F4;
+}
+.outerdivfor{
+    height:300px;
+    width:400px; 
+    background-color:#FFFFFF;
+    border:1px solid #EEEEEE;
+}
+.headerupperforeg{
+   font-size:1rem;
+   font-weight:700;
+}
+.headingpara{
+    font-size:0.8rem;
+    text-align: left;
+}

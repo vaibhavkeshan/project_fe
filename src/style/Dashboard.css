@@ -1,0 +1,40 @@
+.sidebarcontainer{
+    background-color:#F4F4F4;
+}
+.upperprofiledashboard{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.namedashboard{
+    font-size:1.6rem;
+    font-weight:600;
+}
+.cardashboard{
+    background-color: #F4F4F4;
+    min-width:90% !important;
+}
+
+.activecreator{
+    font-size:1.1rem;
+    font-weight:600;
+}
+.basicdashboard{
+    font-size:1.3rem;
+    font-weight:600; 
+}
+.activesection{
+    display: flex;
+    justify-content:space-between;
+}
+.activebtn button{
+    border:1px solid black;
+    border-radius:5px;
+    font-size:0.9rem;
+    padding:5px;
+}
+.activebtn button:hover{
+  background-color:#D6D6D6;
+  outline: none;
+}

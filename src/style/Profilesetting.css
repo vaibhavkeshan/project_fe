@@ -1,0 +1,67 @@
+.sidebarcontentprofiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.linepro {
+    border: 1px solid #C6C6C6;
+    position: absolute;
+    top: 240px;
+}
+
+.nameprofile {
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    top: 200px;
+}
+
+.upperprofileavtar {
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.upperprofile {
+    position: relative;
+}
+
+.iconpencilpro {
+    position: absolute;
+    top: 70px;
+    left: 99px;
+}
+
+.lowerprofile {
+    display: flex;
+    justify-content: right;
+
+}
+
+.btncancelpro {
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid #C6C6C6;
+    margin-right: 5px;
+}
+
+.btncancelpro:hover {
+    background-color: #F4F4F4;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.btnsavepro {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.btnsavepro:hover {
+    background-color: #F4F4F4;
+    color: #000;
+
+}

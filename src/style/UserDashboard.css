@@ -1,0 +1,237 @@
+.outerdashboardsearch {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+.upperSearch {
+    height: 10vh;
+    background-color: #F4F4F4;
+    border-top: 1px solid black;
+}
+
+
+
+
+.textOutsearch {
+    width: 25%;
+
+}
+
+
+.projectDashboardMain {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start;
+}
+
+.lowersearch {
+    width: 290px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 20px;
+
+}
+
+.contenticon span {
+    color: black !important;
+    font-weight: 800;
+}
+
+.boxlower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parentWorking {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.childWork {
+    height: 320px;
+    width: 290px;
+    /* margin: 10px; */
+    /* border: 1px solid white; */
+    background-color: white;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+    border-radius: 20px;
+}
+
+.imgVideoWorking {
+    height: 60%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.imgVideoWorking img,
+.imgVideoWorking video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px 10px 0 0 !important;
+
+}
+
+.timeOfProject {
+    line-height: 10px !important;
+}
+
+.timeOfProject span {
+    font-size: x-small;
+    font-weight: 900;
+    line-height: 0 !important;
+}
+
+.upgrade_btnNewUi {
+    background-color: rgb(12, 105, 255);
+    border-radius: 20px;
+    width: fit-content;
+    color: white;
+    padding: 0 10px;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: small;
+}
+
+.upgrade_btnNewUi:hover {
+    background-color: rgb(12, 105, 255);
+}
+
+.threeDot {
+    cursor: pointer;
+    color: rgb(12, 105, 255);
+}
+
+.progressBar {
+    height: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(214, 233, 255);
+    position: relative;
+}
+
+.completedPart {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+    background-color: rgb(12, 105, 255);
+
+}
+
+.allOtherController {
+    position: relative;
+}
+
+.childController {
+    position: absolute;
+    top: 0;
+    left: 27px;
+    background-color: white;
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    z-index: 999999 !important;
+    display: none;
+}
+
+.activeActionController {
+    display: block;
+}
+
+.controllerAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.controllerAction span {
+    font-size: 1.1rem;
+    font-weight: 900;
+    line-height: 5px;
+    cursor: pointer;
+}
+
+.controllerAction:hover {
+    color: rgb(12, 105, 255);
+}
+
+#aboveWork {
+    z-index: 1;
+
+}
+
+#innerWork {
+    z-index: -1;
+}
+
+.playerWorking {
+    height: 30% !important;
+    width: 100%;
+    /* background-color: bisque; */
+
+}
+
+.leftProject {
+    font-weight: 700;
+}
+
+.artWorkNameWorking span {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.iconWorking span {
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.menuWorkingParent {
+    position: relative;
+}
+
+.menuWorkingParent span {
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.workingDate span {
+    font-size: x-small;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.iconWorking .menuWorking {
+    position: absolute;
+    top: 10px;
+    height: auto;
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.iconWork1 span {
+    font-size: 1.2rem;
+    margin: 3px 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
