@@ -84,13 +84,13 @@ const ProjectShare = ({ handleOpen1, open1, handleClose1, projectId }) => {
                 <p>Preview Url</p>
                 <a
                   key={buildId}
-                  href={`https://ar-visual.vercel.app/scan/${build?._id}`}
+                  href={`https://travelar.vercel.app/scan/${build?._id}`}
                   // href={`http://localhost:3000/scan/${build?._id}`}
                   target="_blank"
                   className="my-2"
                   rel="noopener noreferrer"
                 >
-                  {`https://ar-visual.vercel.app/scan/${build?._id}`}
+                  {`https://travelar.vercel.app/${build?._id}`}
                 </a>
 
                 <div id="qrcode" className="my-3" ref={qrCodeRef}>
@@ -102,7 +102,7 @@ const ProjectShare = ({ handleOpen1, open1, handleClose1, projectId }) => {
                       width: "100%",
                     }}
                     id="atSmallBuildQr"
-                    value={`https://ar-visual.vercel.app/scan/${build?._id}`}
+                    value={`https://travelar.vercel.app/scan/${build?._id}`}
                     viewBox={`0 0 256 256`}
                   />
                 </div>
