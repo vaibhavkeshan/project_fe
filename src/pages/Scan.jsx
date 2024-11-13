@@ -198,7 +198,7 @@ const Scan = () => {
                   color: "transparent",
                 }}
               >
-                Artify
+                SightAR
               </span>{" "}
               Powered by
               <br />
@@ -220,7 +220,7 @@ const Scan = () => {
           <div className="container-fluid">
             <div className="row text-center py-1 scanHeading">
               <p>
-                This AR experience is designed by thegodspeeds.com - ARtify
+                This AR experience is designed by us - SightAR
                 Tool. Open in Chrome browser to experience in high quality.
               </p>
             </div>

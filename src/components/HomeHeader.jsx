@@ -20,7 +20,7 @@ const HomeHeader = () => {
       id={`${isPath ? "mainHeader2" : "mainHeader"}`}
     >
       <NavLink className="navbar-brand secondHeader_logo" to="/">
-        Godspeed
+      TravelAR
       </NavLink>
       <button
         className="navbar-toggler  bg-light"

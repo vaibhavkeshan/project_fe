@@ -128,7 +128,7 @@ const Sidebar = () => {
                   exit="hidden"
                   className="logo"
                 >
-                  Artify
+                  SightAR
                 </motion.h1>
               )}
             </AnimatePresence>

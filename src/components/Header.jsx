@@ -23,7 +23,7 @@ const Header = () => {
     <>
       <div id="mainHeader3" className="px-2">
         <div>
-          <NavLink className="artify">ARTIFY</NavLink>
+          <NavLink className="artify">SightAR</NavLink>
         </div>
 
         <div>

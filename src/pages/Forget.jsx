@@ -17,7 +17,7 @@ const Forget = () => {
   return (
     <>
       <div className="row py-5 bg-light px-2 logoUp">
-        <h4 onClick={() => navigate("/")}>Godspeed</h4>
+        <h4 onClick={() => navigate("/")}>TravelAR</h4>
       </div>
       <div className="outerfor">
         <div className="outerdivfor mx-5 px-4 py-3">

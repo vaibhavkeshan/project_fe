@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="bg_set"></div>
       <div className="content">
         <h1>
-          Create With <br /> Godspeed
+          Create With <br /> TravelAR
         </h1>
         <p>
           An Easy-To-Use Augmented Reality Tool For Enhancing Creative
@@ -40,7 +40,7 @@ const Hero = () => {
           }}
           class="button atsmall"
         >
-          ARtify
+          SightAR
         </button>
       </div>
     </div>

@@ -465,7 +465,7 @@ const UserProvider = ({ children }) => {
           key,
           amount: data?.order?.amount,
           currency: "INR",
-          name: "Godspeed",
+          name: "TravelAR",
           description: "create art work",
           order_id: data?.order?.id,
           handler: async function (response) {
@@ -551,7 +551,7 @@ const UserProvider = ({ children }) => {
           key,
           // amount: data?.order?.amount,
           // currency: "INR",
-          name: "Godspeed",
+          name: "TravelAR",
           subscription_id: data?.subscription,
           handler: async function (response) {
             try {
